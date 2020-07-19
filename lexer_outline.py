@@ -3,12 +3,12 @@ sys.path.insert(0, "../..")
 
 tokens = ('ID',   # ID represents a variable name
           'NUM',  # NUM represents the signed integer data type
-          'OPER', # OPER represents arithmetic characters (+, -, *, /, **)
+          'EXP',  # EXP represents the exponentiation operator (**)
           'STR',  # STR represents the string data type
           'VAR'   # var represents the literal string 'VAR'
           )
 
-literals = ['=', '+', '-', '*', '/', '(', ')']
+literals = ['=', '+', '-', '*', '/']
 
 # create a method for parsing VAR tokens
     # regex for finding VAR tokens
@@ -21,6 +21,10 @@ literals = ['=', '+', '-', '*', '/', '(', ')']
 # create a method for parsing NUM tokens
     # regex for finding NUM tokens
     # convert token from str to int
+    # return token
+          
+# create a method for parsing EXP tokens
+    # regex for finding EXP tokens
     # return token
           
 # create a method for parsing OPER tokens
