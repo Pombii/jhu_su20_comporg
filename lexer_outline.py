@@ -44,3 +44,10 @@ def t_error(t):
 # Build the lexer
 import ply.lex as lex
 lexer = lex.lex()
+
+while True:
+  code = input("Enter a line of code: ")
+  lexer.input(code)
+
+  for token in lexer:
+    print(token)
