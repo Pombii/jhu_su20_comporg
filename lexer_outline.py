@@ -26,10 +26,6 @@ literals = ['=', '+', '-', '*', '/']
 # create a method for parsing EXP tokens
     # regex for finding EXP tokens
     # return token
-          
-# create a method for parsing OPER tokens
-    # regex for finding OPER tokens
-    # return token
 
 # create a method for parsing STR tokens
     # regex for finding STR tokens
